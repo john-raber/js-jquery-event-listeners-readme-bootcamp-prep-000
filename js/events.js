@@ -7,6 +7,7 @@ function getIt() {
 
 function frameIt() {
   $('img').on('load', function() {
+<<<<<<< HEAD
     $('img').addClass("tasty");
   });
 }
@@ -22,6 +23,9 @@ function pressIt() {
 function submitIt() {
   $('form').on("submit", function() {
     alert('Your form is going to be submitted now.');
+=======
+    $('img').append('class="tasty"');
+>>>>>>> d6dd039397ccd618f636637c80ed0b4bd216b862
   });
 }
 
